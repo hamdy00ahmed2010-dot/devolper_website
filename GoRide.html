@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Hamdy Ahmed — Web Developer specializing in HTML and CSS.">
+
+    <title>Hamdy Ahmed | Web Developer</title>
+
+    <link rel="stylesheet" href="hamdy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="uo.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container nav">
+            <a href="#home" class="logo">
+                H<span>.</span>A
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="btn btn-outline nav-cta">
+                Let's Talk <span>↗</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        WEB DEVELOPER
+                    </div>
+
+                    <p class="intro">Hello, I'm</p>
+
+                    <h1>
+                        Hamdy Ahmed<span class="accent">.</span>
+                    </h1>
+
+                    <h2>
+                        I build <span class="gradient-text">beautiful</span>
+                        websites.
+                    </h2>
+
+                    <p class="hero-description">
+                        I'm a web developer passionate about creating
+                        clean, modern, and responsive websites using
+                        HTML and CSS.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span>01</span>
+                        <span class="note-line"></span>
+                        Turning ideas into web experiences.
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="glow glow-one"></div>
+                    <div class="glow glow-two"></div>
+
+                    <div class="code-card">
+                        <div class="code-header">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span>developer.html</span>
+                            <span class="code-menu">•••</span>
+                        </div>
+
+                        <div class="code-body">
+                            <div class="code-line">
+                                <span class="line-number">01</span>
+                                <span><i>&lt;section</i> <b>class</b>=<em>"developer"</em><i>&gt;</i></span>
+                            </div>
+
+                            <div class="code-line">
+                                <span class="line-number">02</span>
+                                <span>&nbsp;&nbsp;<i>&lt;h1&gt;</i></span>
+                            </div>
+
+                            <div class="code-line">
+                                <span class="line-number">03</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;Hello, World!</span>
+                            </div>
+
+                            <div class="code-line">
+                                <span class="line-number">04</span>
+                                <span>&nbsp;&nbsp;<i>&lt;/h1&gt;</i></span>
+                            </div>
+
+                            <div class="code-line">
+                                <span class="line-number">05</span>
+                                <span>&nbsp;&nbsp;<i>&lt;p&gt;</i></span>
+                            </div>
+
+                            <div class="code-line">
+                                <span class="line-number">06</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;I build the web.</span>
+                            </div>
+
+                            <div class="code-line">
+                                <span class="line-number">07</span>
+                                <span>&nbsp;&nbsp;<i>&lt;/p&gt;</i></span>
+                            </div>
+
+                            <div class="code-line">
+                                <span class="line-number">08</span>
+                                <span><i>&lt;/section&gt;</i><span class="cursor">|</span></span>
+                            </div>
+                        </div>
+
+                        <div class="code-footer">
+                            <span><span class="footer-dot"></span> HTML & CSS</span>
+                            <span>UTF-8</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-badge badge-html">
+                        <span class="badge-icon html-icon">5</span>
+                        <div>
+                            <strong>HTML5</strong>
+                            <small>Web Structure</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-badge badge-css">
+                        <span class="badge-icon css-icon">3</span>
+                        <div>
+                            <strong>CSS3</strong>
+                            <small>Web Styling</small>
+                        </div>
+                    </div>
+
+                    <div class="visual-caption">
+                        <span class="caption-line"></span>
+                        <span>DESIGNED WITH PURPOSE.</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom-line"></div>
+        </section>
+
+        <!-- About -->
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <div class="section-label">
+                    <span>01 / ABOUT ME</span>
+                </div>
+
+                <div class="about-grid">
+                    <div>
+                        <h2 class="section-title">
+                            Building the web,<br>
+                            <span class="gradient-text">one line at a time.</span>
+                        </h2>
+                    </div>
+
+                    <div class="about-copy">
+                        <p>
+                            I'm Hamdy Ahmed, a web developer focused on
+                            HTML and CSS. I enjoy turning ideas into
+                            attractive, user-friendly web pages.
+                        </p>
+
+                        <p>
+                            My goal is to create websites that look great,
+                            work smoothly, and deliver a great experience
+                            across different screen sizes.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Let's work together <span>↗</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <div class="section-label">
+                    <span>02 / MY SKILLS</span>
+                </div>
+
+                <div class="section-heading">
+                    <h2 class="section-title">
+                        Tools I use to<br>
+                        <span class="gradient-text">bring ideas to life.</span>
+                    </h2>
+
+                    <p>
+                        My current focus is building the foundations
+                        of the web through clean code and thoughtful design.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-top">
+                            <div class="skill-logo html-logo">5</div>
+                            <span class="skill-number">01</span>
+                        </div>
+
+                        <h3>HTML5</h3>
+                        <p>
+                            Creating well-structured, accessible,
+                            and meaningful web page layouts.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Semantic HTML</span>
+                            <span>Page Structure</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-top">
+                            <div class="skill-logo css-logo">3</div>
+                            <span class="skill-number">02</span>
+                        </div>
+
+                        <h3>CSS3</h3>
+                        <p>
+                            Styling modern interfaces with responsive
+                            layouts, colors, and smooth animations.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Responsive Design</span>
+                            <span>Flexbox & Grid</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-label">
+                    <span>03 / SELECTED WORK</span>
+                </div>
+
+                <div class="section-heading">
+                    <h2 class="section-title">
+                        Projects that<br>
+                        <span class="gradient-text">show what I do.</span>
+                    </h2>
+
+                    <p>
+                        A selection of my web design and development work.
+                        More projects will be added as I grow.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-preview preview-showroom">
+                            <div class="preview-window">
+                                <div class="preview-top">
+                                    <span>VERNA AUTO</span>
+                                    <span>HOME &nbsp; CARS</span>
+                                </div>
+
+                                <div class="preview-main">
+                                    <small>FIND YOUR NEXT RIDE</small>
+                                    <strong>Drive Your<br>Dream.</strong>
+                                    <div class="preview-button">Explore Cars ↗</div>
+                                </div>
+
+                                <div class="preview-car">V</div>
+                            </div>
+                            <span class="project-category">WEB DESIGN</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div>
+                                <h3>Car Showroom Website</h3>
+                                <p>A modern concept for a car dealership.</p>
+                            </div>
+                            <a href="#contact" class="project-link" aria-label="Ask about Car Showroom Website">↗</a>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-preview preview-portfolio">
+                            <div class="portfolio-preview-window">
+                                <span class="mini-label">CREATIVE PORTFOLIO</span>
+                                <strong>Design.<br>Build.<br><span>Repeat.</span></strong>
+                                <div class="mini-shapes">
+                                    <i></i><i></i><i></i>
+                                </div>
+                            </div>
+                            <span class="project-category">PERSONAL BRAND</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div>
+                                <h3>Personal Portfolio</h3>
+                                <p>A personal website for a creative professional.</p>
+                            </div>
+                            <a href="#contact" class="project-link" aria-label="Ask about Personal Portfolio">↗</a>
+                        </div>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="projects-note">
+                    These are concept previews. Replace them with your
+                    real projects and live links when they're ready.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="contact-box">
+                    <div class="contact-decoration decoration-one"></div>
+                    <div class="contact-decoration decoration-two"></div>
+
+                    <div class="contact-content">
+                        <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
+
+                        <h2>
+                            Let's create something<br>
+                            <span class="gradient-text">great together.</span>
+                        </h2>
+
+                        <p>
+                            Need a website or have an idea you'd like to build?
+                            Feel free to reach out. I'd love to hear from you.
+                        </p>
+
+                        <a href="#" class="btn btn-primary whatsapp-btn" id="whatsappLink" target="_blank"
+                            rel="noopener noreferrer">
+                            <span>Chat with me on WhatsApp</span>
+                            <span>↗</span>
+                        </a>
+
+                        <p class="contact-note">
+                            Direct contact · WhatsApp
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo">
+                H<span>.</span>A
+            </a>
+
+            <p>Designed & built by Hamdy Ahmed.</p>
+
+            <a href="#home" class="back-to-top">
+                Back to top ↑
+            </a>
+
+            <p class="copyright">
+                © <span id="year"></span> Hamdy Ahmed
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
